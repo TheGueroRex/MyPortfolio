@@ -1,0 +1,278 @@
+.parallax-sky-dark {
+  background: rgb(9,32,41);
+  background: -moz-linear-gradient(0deg, rgba(9,32,41,1) 10%, rgba(14,47,57,1) 33%, rgba(15,58,71,1) 66%, rgba(6,23,29,1) 95%);
+  background: -webkit-linear-gradient(0deg, rgba(9,32,41,1) 10%, rgba(14,47,57,1) 33%, rgba(15,58,71,1) 66%, rgba(6,23,29,1) 95%);
+  background: linear-gradient(0deg, rgba(9,32,41,1) 10%, rgba(14,47,57,1) 33%, rgba(15,58,71,1) 66%, rgba(6,23,29,1) 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092029",endColorstr="#06171d",GradientType=1);
+ }
+
+.parallax-sky-light {
+  background: rgb(222, 108, 71);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(222, 108, 71, 1) 31%,
+    rgba(60, 70, 117, 1) 84%,
+    rgba(51, 58, 101, 1) 99%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(222, 108, 71, 1) 31%,
+    rgba(60, 70, 117, 1) 84%,
+    rgba(51, 58, 101, 1) 99%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(222, 108, 71, 1) 31%,
+    rgba(60, 70, 117, 1) 84%,
+    rgba(51, 58, 101, 1) 99%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de6c47",endColorstr="#333a65",GradientType=1);
+}
+
+/*-------------------------------------------*/
+
+.parallax-water-dark {
+  background: rgb(4,12,19);
+  background: -moz-linear-gradient(0deg, rgba(4,12,19,1) 15%, rgba(6,37,46,1) 60%, rgba(14,103,130,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(4,12,19,1) 15%, rgba(6,37,46,1) 60%, rgba(14,103,130,1) 100%);
+  background: linear-gradient(0deg, rgba(4,12,19,1) 15%, rgba(6,37,46,1) 60%, rgba(14,103,130,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040c13",endColorstr="#0e6782",GradientType=1);
+}
+
+.parallax-water-light {
+  background: #ba6351;
+}
+
+/*-------------------------------------------*/
+
+.layer-0-dark {
+  fill: url(#lgrad);
+}
+
+.layer-0-light {
+  fill: #0b131a;
+}
+
+/*-------------------------------------------*/
+
+.grass-1-dark {
+  fill: #060b0f;
+}
+
+.grass-1-light {
+  fill: #021620;
+}
+
+.rocks-1-dark {
+  fill: #03090e;
+}
+
+.rocks-1-light {
+  fill: #1e2430;
+}
+
+.camping-1-dark {
+  fill: #f8fc03;
+  /* filter: url(#filter-camping-1);
+  -webkit-filter: url(#filter-camping-1); */
+}
+
+.camping-1-light {
+  fill: #c56100;
+}
+
+.camping-2-dark {
+  fill: #faad06;
+}
+
+.camping-2-light {
+  fill: #915816;
+}
+
+.camping-3-dark {
+  fill: #ffda05;
+  /* filter: url(#filter-camping-3);
+  -webkit-filter: url(#filter-camping-3); */
+}
+
+.camping-3-light {
+  fill: #ffac37;
+}
+
+.camping-4-dark {
+  fill: #000000;
+}
+
+.camping-4-light {
+  fill: #2b1703;
+}
+
+.camping-5-dark {
+  fill: #1d1d1d;
+}
+
+.camping-5-light {
+  fill: #4e4e4e;
+}
+
+.fire-1-dark {
+  fill: #ff4500;
+  /* filter: url(#filter-fire-1); */
+  animation: animation-fire-1 5s infinite linear;
+}
+
+.fire-2-dark {
+  fill: #f90;
+}
+
+.fire-3-dark {
+  fill: #faee00;
+}
+
+.woods-dark {
+  fill: #2a1709;
+}
+
+.woods-light {
+  fill: #141414;
+}
+
+.smoke-1 {
+  fill: #0e0d0d;
+  opacity: 0.41;
+  /* filter: url(#filter-smoke-1); */
+  display: none;
+}
+
+.shadow-campfire {
+  fill: #af7113;
+  opacity: 0.04;
+  /* filter: url(#filter-shadow-campfire); */
+  filter: drop-shadow(0px 0px 50px #af7113);
+}
+
+.herb-2-3-dark {
+  fill: #040d13;
+}
+
+.herb-2-3-light {
+  fill: #040f16;
+}
+
+.herb-1-dark {
+  fill: #03090e;
+}
+
+.herb-1-light {
+  fill: #1b1b1d;
+}
+
+/*-------------------------------------------*/
+
+.pine-1-dark {
+  fill: #040c13;
+}
+
+.pine-1-light {
+  fill: #131724;
+}
+
+.pine-2-dark {
+  fill: #040d13;
+}
+
+.pine-2-light {
+  fill: #10141f;
+}
+
+/*-------------------------------------------*/
+
+.boulder-1-dark {
+  fill: #05121b;
+}
+
+.boulder-1-light {
+  fill: #191d2c;
+}
+
+.boulder-1-1-dark {
+  fill: #040e14;
+}
+
+.boulder-1-1-light {
+  fill: #131724;
+}
+
+/*-------------------------------------------*/
+
+.mountains-1-2-dark {
+  fill: #041018;
+}
+
+.mountains-1-2-light {
+  fill: #1f1a31;
+}
+
+.mountains-1-2-plus-dark {
+  fill: #01131a;
+}
+
+.mountains-1-2-plus-light {
+  fill: #312a4b;
+}
+
+/*-------------------------------------------*/
+
+.mountain-3-dark {
+  fill: #06191f;
+}
+
+.mountain-3-light {
+  fill: #2d1a31;
+}
+
+.mountain-4-dark {
+  fill: #071e25;
+}
+
+.mountain-4-light {
+  fill: #402546;
+}
+
+/*-------------------------------------------*/
+
+.mountain-5-dark {
+  fill: #0c2931;
+}
+
+.mountain-5-light {
+  fill: #652f46;
+}
+
+/*-------------------------------------------*/
+
+.mountain-6-dark {
+  fill: #02414b;
+}
+
+.mountain-6-light {
+  fill: #8a414b;
+}
+
+/*-------------------------------------------*/
+
+.mountains-7-1-3-dark {
+  fill: #095a68;
+}
+
+.mountains-7-1-3-light {
+  fill: #b65b4b;
+}
+
+.mountains-7-2-dark {
+  fill: #297e91;
+}
+
+.mountains-7-2-light {
+  fill: #f69777;
+}

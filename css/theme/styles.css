@@ -1,0 +1,315 @@
+:root {
+  --color-dark: #14131b;
+  --color-light: #dee4fa;
+  
+  --color-white-primary: #f4f6ff;
+  --color-white-secondary: #e8edfd;
+  --color-white-disbanded-primary: #ececec5d;
+  --color-white-disbanded-secondary: #f1f1f169;
+
+  --color-purple-primary: #6353f5;
+  --color-purple-secondary: #7566fe;
+  --color-shadow-purple: #6353f58f;
+
+  --color-yellow-primary: #f8ab03;
+
+  --color-lightblue-primary: #00eef7;
+
+  --color-black-primary: #131313;  
+  --color-black-secondary: #17161f;
+  --color-black-disbanded-primary: #1e1d2b77;
+  --color-black-disbanded-secondary: #2a293662;
+
+  --color-linear-gradient: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+}
+
+/* --------------------------------STATIC COLORS-------------------------------- */
+
+.dark {
+  /* background: #0f1014; */
+  background: var(--color-dark);
+}
+
+.light {
+  background: var(--color-light);
+}
+
+.dark .effect-change-theme{
+  background: var(--color-light);
+}
+
+.light .effect-change-theme{
+  /* background: #0f1014; */
+  background: var(--color-dark);
+}
+
+.dark #contact,
+.dark .menu-list{
+  /* background: #0f1014; */
+  background: var(--color-dark);
+}
+
+.light #contact,
+.light .menu-list{
+  background: var(--color-light);
+}
+
+/* --------------------------------SVG COLORS-------------------------------- */
+
+.main-menu-dark .logo{
+  fill: var(--color-white-primary);
+}
+
+.main-menu-light .logo{
+  fill: var(--color-black-primary);
+}
+
+#logo svg:hover .logo{
+  fill: var(--color-purple-primary);
+  filter: drop-shadow(0 0 10px var(--color-purple-primary));
+}
+
+/* -----------------------------------------------GENERAL--------------------------------------------------------------------- */
+#main-menu.main-menu-light #btn-resume-header span{
+  color: var(--color-black-primary);
+}
+
+.main-menu-dark #config ul li a, 
+.main-menu-dark #nav-bar ul li a,
+.dark .menu-list-item a,
+.dark .aside-social ul li a,
+.dark .aside-email a,
+.dark .about-user-info, 
+.dark .skills-description,
+.dark .skill-item-info,
+.dark .other-skill-item,
+.dark .projects-description,
+.dark .project-item-info,
+.dark .project-item-btn a,
+.dark .hobby-item-description,
+.dark .form-contact,
+.dark .form-input label,
+.dark .form-input input,
+.dark .form-input textarea,
+.dark .frame-form ul li a,
+.dark #btn-contact,
+.map-location ul li a,
+.map-location ul li p{
+  color: var(--color-white-primary);
+}
+
+.main-menu-light #config ul li a, 
+.main-menu-light #nav-bar ul li a,
+.light .menu-list-item a,
+.light .aside-social ul li a,
+.light .aside-email a,
+.light .about-user-info, 
+.light .skills-description,
+.light .skill-item-info,
+.light .other-skill-item,
+.light .projects-description,
+.light .project-item-info,
+.light .project-item-btn a,
+.light .hobby-item-description,
+.light .form-contact,
+.light .form-input label,
+.light .form-input input,
+.light .form-input textarea,
+.light .frame-form ul li a,
+.light #btn-contact{
+  color: var(--color-black-primary);
+}
+
+.letter-anim,
+#especiality,
+.project-item-info{
+  color: var(--color-white-primary);
+}
+
+
+.dark .aside-social span,
+.dark .aside-email span
+{
+  background: var(--color-white-primary);
+}
+
+.light .aside-social span,
+.light .aside-email span{
+  background: var(--color-black-primary);
+}
+
+.btn,
+.btn-view-code{
+  background: var(--color-linear-gradient);
+  box-shadow: 0 0 25px var(--color-shadow-purple);
+}
+
+.btn span,
+.btn-view-code{
+  color: var(--color-white-primary);
+  stroke: var(--color-white-primary);
+}
+
+#btn-resume-header{
+  box-shadow: none;
+}
+
+.dark .project-item-btns a{
+  color: var(--color-white-disbanded-primary);
+}
+
+.light .project-item-btns a{
+  color: var(--color-black-disbanded-primary);
+}
+
+
+.dark .project-item-info{
+  background: var(--color-black-secondary);
+}
+
+.light .project-item-info{
+  background: var(--color-white-secondary);
+}
+
+.dark .about-user-info,
+.dark .frame-form,
+.dark .map-item,
+/* .dark .skill-item, */
+.dark .skill-item-bar,
+.dark .other-skill-item,
+.dark .hobby-item{
+  background: var(--color-black-disbanded-primary);
+}
+
+.light .about-user-info,
+.light .frame-form,
+.light .map-item,
+/* .light .skill-item, */
+.light .skill-item-bar,
+.light .other-skill-item,
+.light .hobby-item{
+  background: var(--color-white-disbanded-primary);
+}
+
+.dark .form-input input,
+.dark .form-input textarea,
+.dark .frame-form ul li a,
+.dark #btn-contact{
+  background: var(--color-black-disbanded-secondary);
+}
+
+.light .form-input input,
+.light .form-input textarea,
+.light .frame-form ul li a,
+.light #btn-contact{
+  background: var( --color-white-disbanded-secondary);
+}
+
+.about-user-info-title h3,
+.credits a{
+  color: var(--color-yellow-primary);
+}
+
+.work-item-info,
+.hr-hobbies{
+  background: var(--color-yellow-primary);
+}
+
+.sub-title-other-skills,
+.sub-title-hobbies{
+  color: var(--color-lightblue-primary);
+}
+
+/* -------------------------------------- */
+
+.dark .other-skills-gradient{  
+background: var(--color-dark);
+background: linear-gradient(90deg, var(--color-dark) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, var(--color-dark) 100%);
+}
+
+.light .other-skills-gradient{  
+  background: var(--color-light);
+  background: linear-gradient(90deg, var(--color-light) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, var(--color-light) 100%);
+}
+
+#footer{
+  background: rgb(24,178,222);
+background: -moz-radial-gradient(circle, rgba(24,178,222,1) 2%, rgba(117,102,254,1) 75%);
+background: -webkit-radial-gradient(circle, rgba(24,178,222,1) 2%, rgba(117,102,254,1) 75%);
+background: radial-gradient(circle, rgba(24,178,222,1) 2%, rgba(117,102,254,1) 75%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18b2de",endColorstr="#7566fe",GradientType=1);
+}
+
+/* --------------------------------HOVER COLORS-------------------------------- */
+
+/* #btn-resume-header span:nth-child(1), */
+#config ul li a:hover,
+.aside-email a:hover,
+.aside-social ul li a:hover,
+#nav-bar ul li:hover a,
+.project-item-btn a:hover,
+.frame-form ul li a:hover{
+  background: var(--color-linear-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+}
+
+#nav-bar ul li:hover::before{
+  background: var(--color-linear-gradient);
+  animation: in 0.5s 1 both;
+}
+
+
+#config ul li a:link,
+#nav-bar ul li a:link,
+.aside-social ul li a:link{
+  outline: none;
+}
+
+.btn:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn:hover::after,
+.btn-view-code:hover{
+  background: var(--color-linear-gradient);
+  box-shadow: 0 0 25px var(--color-shadow-purple);
+}
+
+#btn-contact:hover,
+.frame-form ul li a:hover{
+  border: 1px solid var(--color-purple-primary);
+  box-shadow: 0 0 5px var(--color-purple-primary);
+}
+
+.map-location ul li a:hover{
+  color: var(--color-white-primary);
+  background: var(--color-black-disbanded-primary);
+}
+
+/* --------------------------------FOCUS-VALID COLORS-------------------------------- */
+.form-input input:focus,
+.form-input textarea:focus,
+.form-input input:valid,
+.form-input textarea:valid{
+  border: 1px solid var(--color-purple-primary);
+  background: transparent;
+}
+
+.form-input input:focus ~ label,
+.form-input textarea:focus ~ label,
+.form-input input:valid ~ label,
+.form-input textarea:valid ~ label{
+  background: var(--color-purple-primary);
+  color: var(--color-white-primary);
+  border-left: 1px solid var(--color-purple-primary);
+  border-right: 1px solid var(--color-purple-primary);
+}
+
+
+
+
+
+

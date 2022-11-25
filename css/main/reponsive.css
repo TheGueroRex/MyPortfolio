@@ -1,0 +1,278 @@
+@media screen and (min-width: 1501px){
+   #nav-bar-list{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 1500px) {
+
+   #nav-bar-list{
+      display: block;
+   }
+
+   #btn-menu-list{
+       display: block;
+    }
+
+    #nav-bar ul,
+    .btn-resume-header{
+       display: none;
+    }
+
+    #nav-bar{   
+       width: 100px;
+       height: 100px;
+     }
+}
+
+@media screen and (max-width: 1200px) {
+
+   #social,
+   #email{
+      height: 350px; 
+   }
+
+   .box-social span,
+   #email span{
+   height: 35%;
+   }
+
+   .icon-email{
+      font-size: 0.8em;
+   }
+
+   .letter-anim{
+      font-size: 5em;
+   }
+
+   .letter-space{
+      font-size: 5em;
+   }
+    
+   .about-user-img{
+      width: 100px;
+      height: 100px;
+      top: 10%;
+   }
+
+   .other-skills-line{
+      width: 1200px;
+   }
+
+   .other-skill-item{
+      width: 80px;
+      height: 40px;
+      font-size: 0.8em;
+   }
+
+   .hobby-item{
+      min-width: 210px;
+   }
+
+   .hobbies{
+      gap: 30px;
+      overflow: scroll;
+   }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+   .menu-list-item a{
+      font-size: 3em;
+   }
+
+   #social,
+   #email{
+      width: 80px; 
+   }
+
+   .letter-anim{
+      font-size: 4em;
+   }
+
+   .letter-space{
+      font-size: 4em;
+   }
+
+   .about-user-info-title h2{
+      font-size: 1.5em;
+    }
+    
+    .about-user-info-title h3{
+      font-size: 1em;
+    }
+
+    .about-user-info-description p,
+   .about-user-info-data p{
+      font-size: 0.8em;
+    }
+
+   .frame-skills{
+      flex-direction: column;
+      height: 650px;
+      gap: 2%;
+   }
+
+   .skill-list{
+      width: 90%;
+      height: 48%;
+   }
+
+   .skill-item{
+      height: 30%;
+   }
+
+    .thanks h2{
+      font-size: 1.3em;
+    }
+
+    .thanks h3{
+      font-size: 1em;
+    }
+
+    .credits h3{
+      font-size: 1em;
+    }
+   
+}
+
+@media screen and (max-width: 768px){
+
+   .menu-list-item a{
+      font-size: 2.5em;
+   }
+
+   #social,
+   #email{
+      display: none;
+   }
+
+   .container{     
+      width: 90%;
+    }
+
+    .letter-anim{
+      font-size: 3.3em;
+   }
+
+   .letter-space{
+      font-size: 3.3em;
+   }
+
+   .frame-about{
+      height: 800px;
+   }
+
+   .frame-skills{
+      gap: 5%;
+   }
+
+   .skill-list{
+      width: 85%;
+   }
+
+   .skill-item{   
+      height: 25%;
+   }
+
+   .skill-item-icon{
+      width: 80px;
+      height: 80px;
+   }
+
+   .projects-row-up{
+      animation: animation-projects-rows-up-768 15s infinite;
+    }
+    
+    .projects-row-down{
+      transform: translateX(-150%);
+      animation: animation-projects-rows-down-768 15s infinite;
+    }
+
+   .project-item{
+      min-width: 50%;
+   }
+
+   .works-time-line{
+      max-height: 500px;
+   }
+
+   .work-item{
+      width: 79%;
+    }
+
+    .work-item-info{
+      font-size: 0.8em;
+    }
+
+    .sub-title-hobbies{
+      margin-top: 10%;
+    }
+
+    .hobbies{
+      flex-wrap: wrap;
+      justify-content: center;
+      /* width: 430px; */
+      height: 55%;
+      margin: 0 auto;
+      gap: 15px;
+      overflow: hidden;
+    }
+
+    .hobby-item{
+      width: 40%;
+      min-width: auto;
+      height: 363px;
+    }
+
+    .hobby-item-title{
+      font-size: 0.8em;
+    }
+
+    .hobby-item-description{
+      font-size: 0.8em;
+    }
+
+    .frame-contact{
+      width: 90%;
+    }
+
+    .thanks h2{
+      font-size: 1.1em;
+    }
+
+    .thanks h3{
+      font-size: 0.8em;
+    }
+
+    .credits h3{
+      font-size: 0.8em;
+    }
+  
+}
+
+@media screen and (max-width: 480px){
+
+   body,
+   #header{
+      min-width: 480px;
+    }
+   .about-user-img{
+      width: 80px;
+      height: 80px;
+      top: 12%;
+   }
+
+   .thanks h2{
+      font-size: 1em;
+    }
+
+    .thanks h3{
+      font-size: 0.6em;
+    }
+
+    .credits h3{
+      font-size: 0.6em;
+    }
+}

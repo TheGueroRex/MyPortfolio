@@ -1,0 +1,23 @@
+@media screen and (min-width: 1921px) {
+    #home{
+        max-width: 2560px;
+        height: 1440px; 
+    }
+    
+    #parallax{      
+        width: 2560px;
+        height: 1440px;
+      }
+  }
+
+  @media screen and (min-width: 2561px) {
+    #home{
+        max-width: 3840px;
+        height: 2160px; 
+    }
+    
+    #parallax{      
+        width: 3840px;
+        height: 2160px;
+      }
+  }

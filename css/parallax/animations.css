@@ -1,0 +1,45 @@
+@keyframes animate-shooting {
+    0%{
+      transform: rotate(-20deg) translateX(0px);
+      opacity: 1;
+    }
+    5%,100%{ 
+      transform: rotate(-20deg) translateX(100px);
+      top: 50%;
+      opacity: 0;
+    }
+  }
+
+
+ @keyframes animation-fire-1 {
+  0%{
+    opacity: 1;
+  }
+
+  30%{
+    opacity: 0.5;
+  }
+
+  60%{
+    opacity: 1;
+  }
+
+  80%{
+    opacity: 0.65;
+  }
+  
+ }
+
+  @keyframes animation-fire-particles {
+    0%{
+      opacity: 1;
+    }
+    100%{
+        top: 0%;
+        opacity: 0;
+    } 
+  }
+
+
+  
+  
