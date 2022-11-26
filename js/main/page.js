@@ -86,7 +86,7 @@ const openArrowIcon = () => {
     trigger: "#arrow-box",
     start: "center center",
     end: "150% top",
-    markers: true,
+    // markers: true,
     onEnter: () => starArrowIcon(),
     onLeaveBack: () => resetArrowIcon(),
     onEnterBack: () => starArrowIcon(),
