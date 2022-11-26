@@ -56,6 +56,45 @@ menuListoption.forEach((option) => {
   })
 })
 
+let arrowIcon = document.querySelector(".arrow-icon");
+
+arrowIcon.addEventListener("click", () => {
+  if(arrowIcon.classList[1] =="open"){
+    arrowIcon.href = "#";
+  }else{
+    arrowIcon.href = "#about";
+  }
+}) 
+
+const resetArrowIcon = () => {
+  gsap.set(arrowIcon, {opacity: 0})
+  arrowIcon.className = "arrow-icon";
+}
+
+resetArrowIcon()
+
+const starArrowIcon = () => {
+  gsap.to(arrowIcon, {opacity: 1})
+}
+
+const openArrowIcon = () => {
+  arrowIcon.classList.toggle("open");
+  gsap.set(arrowIcon, {opacity: 0})
+}
+
+  ScrollTrigger.create({
+    trigger: "#arrow-box",
+    start: "center center",
+    end: "150% top",
+    markers: true,
+    onEnter: () => starArrowIcon(),
+    onLeaveBack: () => resetArrowIcon(),
+    onEnterBack: () => starArrowIcon(),
+    onLeave: () => openArrowIcon()
+  })
+
+
+
 
 
 

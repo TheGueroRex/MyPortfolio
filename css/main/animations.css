@@ -274,4 +274,17 @@
   }
 }
 
+@keyframes animation-arrow-scroll {
+  0%{
+    transform: translate(-50%, 0%);
+  } 
+  50%{
+    transform: translate(-50%, 25%);
+  }  
+
+  100%{
+    transform: translate(-50%, 0%);
+  } 
+}
+
 

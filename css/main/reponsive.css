@@ -253,15 +253,149 @@
 }
 
 @media screen and (max-width: 480px){
+   .btn,
+   .btn span{
+      width: 120px;
+      height: 35px;
+   }
 
-   body,
-   #header{
-      min-width: 480px;
+   .btn span{
+      line-height: 35px;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+   }
+
+   .title-section{
+      padding: 10px;
     }
+
+    .title-section h2{
+      font-size: 2.2em;
+      letter-spacing: 1px;
+    }
+
+   #about{
+      margin-bottom: 50px;
+   }
+
+   .letter-anim{
+      font-size: 2.8em;
+   }
+
+   .letter-space{
+      font-size: 2.8em;
+   }
+
+   .frame-about{
+      height: 500px;
+      margin-top: 20px;
+    }
+
+
+    .about-user-info{
+      gap: 2%;
+      height: 85%;
+      top: 10%;
+    }
+
    .about-user-img{
       width: 80px;
       height: 80px;
-      top: 12%;
+      top: 1%;
+   }
+
+   .sub-title-hobbies,
+   .sub-title-other-skills{
+      font-size: 1em;
+    }
+
+   .hobbies{
+      gap: 10px;
+    }
+
+   .hobby-item{
+      width: 48%;
+      min-width: 150px;
+      height: 280px;
+      gap: 2%;
+    }
+
+    .hobby-item-info{
+      gap: 5%;
+      height: 55%;
+    }
+
+    .hobby-item-title{
+      font-size: 0.7em;
+    }
+
+    .hobby-item-description{
+      font-size: 0.7em;
+    }
+
+    .skills-description{
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    .skill-item-meta{
+      font-size: 0.8em;
+    }
+
+    .skill-item-bar{
+      height: 10px;
+    }
+
+    .frame-other-skills{
+      height: 100px;
+    }
+
+    .projects-description{
+      font-size: 0.8em;
+      margin-top: 10px;
+    }
+
+    .work-item{
+      width: 90%;
+    }
+
+    .work-item-info{
+      font-size: 0.6em;
+    }
+
+    .work-3{
+      height: 40px;
+    }
+
+    #contact{
+      height: 700px;
+      overflow: hidden;
+    }
+
+    .frame-form{
+      height: 90%;
+    }
+
+    .form-input label{
+      font-size: 0.9em;
+    }
+
+   .form-contact button{
+         align-self: center;
+   }
+
+   .frame-form ul{
+      margin-top: 20px;
+      scale: 0.9;
+   }
+
+   #btn-contact{
+      height: 35px;
+      width: 130px;
+   }
+
+   .submitMessage svg {
+      left: 50px;
    }
 
    .thanks h2{
@@ -274,5 +408,13 @@
 
     .credits h3{
       font-size: 0.6em;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+   body{
+      width: 360px;
+      min-width: 360px;
     }
 }
